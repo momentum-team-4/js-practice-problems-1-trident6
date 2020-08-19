@@ -1,81 +1,37 @@
 // 1. Set the variable `givenName` to the string "Addison".
-let givenName = "Addison";
+
 // 2. Set candies equal to 20, people to 6, and leftover equal
 // to the remainder of dividing 20 by 6.
-candies = 20;
-people = 6;
-leftover = candies % people;
 
 // 3. Create a function called greeting that returns "Hello, <name>!",
 // where <name> is the name given as an argument to the function.
-
-function Hello(name) {
-    return "Hello, " + name + "!";
-}
 
 // 4. Create a function called isOdd that, given a number, will
 // return true if it is odd and false if it is not. An odd number is a
 // number which, when divided by 2, has a remainder of 1 or -1.
 
-function isOdd(num) {
-    if (num % 2 !== 0) {
-    return ('True') }
-    else {
-    return ('False')
-    }
-}
-
 // 5. Create a function called isEven that, given a number, will
 // return true if it is even and false if it is not. An even number is a
 // number which, when divided by 2, has a remainder of 0.
 
-function isEven(num) {
-    if (num % 2 === 0) {
-    return ('True')
-    }
-    else {
-    return ('False')
-    }
-}
-
 // 6. Create a function called fahrenheitToCelsius that takes a
 // Fahrenheit temperature as an argument and returns the
-// temperature in Celsius. (32°F − 32) × 5/9 = 0°C
-
-function fahrenheitToCelsius(Fahrenheit) {
-    return (Fahrenheit - 32)*5/9
-}
+// temperature in Celsius.
 
 // 6. Create a function called celsiusToFahrenheit that takes a
 // Celsius temperature as an argument and returns the
-// temperature in Fahrenheit. (0°C × 9/5) + 32 = 32°F
-
-function celsiusToFahrenheit(Celsius) {
-    return Celsius * 9/5 + 32
-}
+// temperature in Fahrenheit.
 
 // 7. Create a function called fahrenheitToKelvin that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Kelvin. This function must use your previous
 // fahrenheitToCelsius function.
 // Absolute zero (0 K) is equivalent to −273.15 C.
-// 1 degree Kelvin equals 1 degree Celsius. (32°F − 32) × 5/9 + 273.15 = 273.15K
-
-function fahrenheitToKelvin (Fahrenheit) {
-    return (Fahrenheit - 32) * 5/9 + 273.15
-}
+// 1 degree Kelvin equals 1 degree Celsius.
 
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.
-
-function Lesser (num1), (num2) {
-    if (num1 > num2) {
-    return num2
-    { else {
-    return num1
-    }
-}
 
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
